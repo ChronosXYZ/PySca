@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class AbstractAnalyzer(ABC):
+class AbstractFilter(ABC):
     @abstractmethod
     def analyze(self, result) -> object:
         pass
